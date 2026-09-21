@@ -1,0 +1,779 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ajo Saitus | Full Stack Developer</title>
+
+    <meta name="description"
+        content="Portfolio of Ajo Saitus — Founder, Full Stack Developer, Flutter Developer and IMCA Student.">
+
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .certificate-dropdown {
+            margin-top: 10px;
+            text-align: left;
+        }
+
+        .certificate-dropdown summary {
+            cursor: pointer;
+            font-weight: 600;
+            list-style: none;
+        }
+
+        .certificate-dropdown summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .certificate-dropdown summary::after {
+            content: "⌄";
+            margin-left: 6px;
+        }
+
+        .certificate-dropdown[open] summary::after {
+            content: "⌃";
+        }
+
+        .certificate-list {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            margin-top: 12px;
+            padding-top: 10px;
+            border-top: 1px solid rgba(0, 0, 0, 0.08);
+        }
+
+        .certificate-list a {
+            display: block;
+            text-decoration: none;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header class="site-header">
+
+        <nav class="navbar">
+            <a href="#home" class="logo">
+                AJO<span>.</span>
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu">
+                ☰
+            </button>
+            <ul class="nav-links" id="navLinks">
+
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+
+                <li>
+                    <a href="#about">About</a>
+                </li>
+
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+
+                <li>
+                    <a href="#experience">Experience</a>
+                </li>
+
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <p class="hero-greeting">
+                    Hello, I'm
+                </p>
+
+                <h1>
+                    Ajo Saitus
+                </h1>
+
+                <h2>
+                    Founder /
+                    Full Stack Developer /
+                    Flutter Developer /
+                    IMCA Student
+                </h2>
+
+                <p class="hero-description">
+                    I'm an IMCA student at SCMS School of Technology and Management,
+                    passionate about building software, mobile applications,
+                    web applications and startup ideas.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn btn-primary">
+                        View My Work
+                    </a>
+
+                    <a href="documents/resume.pdf"
+                        class="btn btn-secondary"
+                        target="_blank">
+                        View Resume
+                    </a>
+
+                </div>
+
+            </div>
+            <div class="hero-image">
+
+                <div class="profile-placeholder">
+                    <img src="images/profile.png"
+                        alt="Ajo Saitus profile photo">
+                </div>
+
+            </div>
+
+        </section>
+        <section class="section about-section" id="about">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    About Me
+                </p>
+
+                <h2>
+                    A little about who I am
+                </h2>
+
+            </div>
+
+
+            <div class="about-content">
+
+                <div class="about-text">
+
+                    <p>
+                        I'm Ajo Saitus, an IMCA student and aspiring technology
+                        entrepreneur currently studying at SCMS School of
+                        Technology and Management.
+                    </p>
+
+                    <p>
+                        I enjoy working across the full development process —
+                        from designing interfaces and developing applications
+                        to building backend systems and working with databases.
+                    </p>
+
+                    <p>
+                        Alongside academics, I'm exploring entrepreneurship
+                        through my startup project, Yasuie, while participating
+                        in hackathons, innovation programs and technology events.
+                    </p>
+
+                </div>
+                <div class="about-details">
+
+                    <div class="detail-item">
+                        <span>Course</span>
+                        <strong>IMCA</strong>
+                    </div>
+
+                    <div class="detail-item">
+                        <span>Year</span>
+                        <strong>3rd Year</strong>
+                    </div>
+
+                    <div class="detail-item">
+                        <span>Semester</span>
+                        <strong>5th Semester</strong>
+                    </div>
+
+                    <div class="detail-item">
+                        <span>Batch</span>
+                        <strong>11</strong>
+                    </div>
+
+                    <div class="detail-item">
+                        <span>Roll No.</span>
+                        <strong>IMCA558</strong>
+                    </div>
+
+                    <div class="detail-item">
+                        <span>Duration</span>
+                        <strong>2024 – 2029</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <section class="section skills-section" id="skills">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    Skills
+                </p>
+
+                <h2>
+                    Technologies I work with
+                </h2>
+
+            </div>
+
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+
+                    <h3>
+                        Programming
+                    </h3>
+
+                    <ul class="skill-list">
+
+                        <li>C#</li>
+                        <li>Java</li>
+                        <li>Dart</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+
+                    </ul>
+
+                </div>
+                <div class="skill-card">
+
+                    <h3>
+                        Frontend
+                    </h3>
+
+                    <ul class="skill-list">
+
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Flutter</li>
+
+                    </ul>
+
+                </div>
+                <div class="skill-card">
+
+                    <h3>
+                        Backend
+                    </h3>
+
+                    <ul class="skill-list">
+
+                        <li>ASP.NET Core</li>
+                        <li>Node.js</li>
+                        <li>Express</li>
+
+                    </ul>
+
+                </div>
+                <div class="skill-card">
+
+                    <h3>
+                        Database
+                    </h3>
+
+                    <ul class="skill-list">
+
+                        <li>MongoDB</li>
+                        <li>SQL Server</li>
+
+                    </ul>
+
+                </div>
+                <div class="skill-card">
+
+                    <h3>
+                        Tools
+                    </h3>
+
+                    <ul class="skill-list">
+
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>VS Code</li>
+                        <li>Android Studio</li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+        <section class="section projects-section" id="projects">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    Projects
+                </p>
+
+                <h2>
+                    Things I've built
+                </h2>
+
+            </div>
+
+
+            <div class="projects-grid">
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <img src="images/blood-donor.png"
+                            alt="Blood Donor Management System">
+
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-number">
+                            01
+                        </p>
+
+                        <h3>
+                            Blood Donor Management System
+                        </h3>
+
+                        <p>
+                            An institution-based blood donor management
+                            system designed to help manage donor information
+                            and blood donation-related records.
+                        </p>
+
+                        <div class="project-tags">
+
+                            <span>C#</span>
+                            <span>ASP.NET</span>
+                            <span>SQL</span>
+
+                        </div>
+                        <a href="#" class="project-link">
+                            Project Details →
+                        </a>
+
+                    </div>
+
+                </article>
+                <article class="project-card featured-project">
+
+                    <div class="project-image">
+                        <img src="images/yasuie.png"
+                            alt="Yasuie startup project">
+
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-number">
+                            02
+                        </p>
+
+                        <h3>
+                            Yasuie
+                        </h3>
+
+                        <p>
+                            A startup project currently under development,
+                            focused on building a reservation platform and
+                            exploring a real-world technology-driven business.
+                        </p>
+
+                        <div class="project-tags">
+
+                            <span>Flutter</span>
+                            <span>Node.js</span>
+                            <span>Express</span>
+                            <span>MongoDB</span>
+
+                        </div>
+                        <a href="#" class="project-link">
+                            Explore Yasuie →
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+        <section class="section experience-section" id="experience">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    Experience & Activities
+                </p>
+
+                <h2>
+                    Beyond academics
+                </h2>
+
+            </div>
+
+
+            <div class="experience-list">
+                <article class="experience-item">
+
+                    <div class="experience-year">
+                        Ongoing
+                    </div>
+
+                    <div class="experience-content">
+
+                        <h3>
+                            Founder / Entrepreneur
+                        </h3>
+
+                        <p>
+                            Working on startup ideas and developing Yasuie
+                            as a technology-driven project while learning
+                            about product development and entrepreneurship.
+                        </p>
+
+                    </div>
+
+                </article>
+                <article class="experience-item">
+
+                    <div class="experience-year">
+                        Activity
+                    </div>
+
+                    <div class="experience-content">
+
+                        <h3>
+                            YIP
+                        </h3>
+
+                        <p>
+                            Participated in the Young Innovators Programme
+                            and explored innovation-focused problem solving.
+                        </p>
+
+                    </div>
+
+                </article>
+                <article class="experience-item">
+
+                    <div class="experience-year">
+                        Activity
+                    </div>
+
+                    <div class="experience-content">
+
+                        <h3>
+                            Smart India Hackathon
+                        </h3>
+
+                        <p>
+                            Participated in Smart India Hackathon and
+                            gained experience working on technology-based
+                            problem solving.
+                        </p>
+
+                    </div>
+
+                </article>
+                <article class="experience-item">
+
+                    <div class="experience-year">
+                        Events
+                    </div>
+
+                    <div class="experience-content">
+
+                        <h3>
+                            Hackathons & Technology Meets
+                        </h3>
+
+                        <p>
+                            Participated in several hackathons, technology
+                            meets and other technical events.
+                        </p>
+
+                    </div>
+
+                </article>
+                <article class="experience-item">
+
+                    <div class="experience-year">
+                        2026
+                    </div>
+
+                    <div class="experience-content">
+
+                        <h3>
+                            LEEP 2026
+                        </h3>
+
+                        <p>
+                            Participated in LEEP 2026 as part of my
+                            academic and technology activities.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+        <section class="section education-section" id="education">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    Education
+                </p>
+
+                <h2>
+                    My academic journey
+                </h2>
+
+            </div>
+
+
+            <div class="education-timeline">
+                <article class="education-item">
+
+                    <div class="education-year">
+                        2024 – 2029
+                    </div>
+
+                    <div class="education-content">
+
+                        <h3>
+                            Integrated Master of Computer Applications
+                        </h3>
+
+                        <p>
+                            SCMS School of Technology and Management
+                        </p>
+
+                        <span>
+                            3rd Year • 5th Semester • Batch 11
+                        </span>
+
+                    </div>
+
+                </article>
+                <article class="education-item">
+
+                    <div class="education-year">
+                        2023 – 2024
+                    </div>
+
+                    <div class="education-content">
+
+                        <h3>
+                            Higher Secondary Education
+                        </h3>
+
+                        <p>
+                            Jyothi Nivas Public School, Aluva
+                        </p>
+
+                    </div>
+
+                </article>
+                <article class="education-item">
+
+                    <div class="education-year">
+                        2020 – 2021
+                    </div>
+
+                    <div class="education-content">
+
+                        <h3>
+                            Secondary Education
+                        </h3>
+
+                        <p>
+                            Jyothi Nivas Public School, Aluva
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+        <section class="section documents-section" id="documents">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    Documents
+                </p>
+
+                <h2>
+                    Certificates & credentials
+                </h2>
+
+                <p>
+                    My certificates, achievements and other documents
+                    will be added here.
+                </p>
+
+            </div>
+
+
+            <div class="documents-grid">
+                <div class="document-card">
+
+                    <div class="document-icon">
+                        📜
+                    </div>
+
+                    <h3>
+                        Certificates
+                    </h3>
+
+                    <p>
+                        View my certificates and participation credentials.
+                    </p>
+
+                    <details class="certificate-dropdown">
+
+                        <summary>
+                            View Certificates
+                        </summary>
+
+                        <div class="certificate-list">
+                            <a href="documents/Ajo Saitus-Certificate.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                YIP Certificate
+                            </a>
+                            <a href="documents/Certificate Hack1.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                Hackathon Certificate
+                            </a>
+                            <a href="documents/Hack2.jpeg"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                Hackathon Certificate 2
+                            </a>
+                            <a href="documents/ICSET_2026_X-AWS_Workshop_Certificate_ICSET_2026__30883_copy.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                ICSET 2026 × AWS Workshop Certificate
+                            </a>
+                            <a href="documents/LEEP 2026.png"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                LEEP 2026 Certificate
+                            </a>
+
+                        </div>
+
+                    </details>
+
+                </div>
+                <div class="document-card">
+
+                    <div class="document-icon">
+                        📄
+                    </div>
+
+                    <h3>
+                        Resume
+                    </h3>
+
+                    <p>
+                        Download or view my latest resume.
+                    </p>
+
+                    <a href="documents/resume.pdf" target="_blank">
+                        View Resume →
+                    </a>
+
+                </div>
+
+
+              
+
+            </div>
+
+        </section>
+        <section class="section contact-section" id="contact">
+
+            <div class="contact-content">
+
+                <p class="section-label">
+                    Contact
+                </p>
+
+                <h2>
+                    Let's build something together.
+                </h2>
+
+                <p>
+                    Whether it's a project, collaboration, startup idea,
+                    or simply a conversation about technology, feel free
+                    to connect with me.
+                </p>
+
+
+                <div class="contact-links">
+                    <a href="https://in.linkedin.com/in/ajo-saitus-3148a6372"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        LinkedIn
+                    </a>
+                    <a href="#" target="_blank">
+                        GitHub
+                    </a>
+                    <a href="mailto:your-email@example.com">
+                        Email
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+    <footer class="site-footer">
+
+        <p>
+            © <span id="currentYear"></span> Ajo Saitus.
+            All rights reserved.
+        </p>
+
+    </footer>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
